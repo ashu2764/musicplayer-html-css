@@ -1,0 +1,807 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>My Player</title>
+	<!-- favicon -->
+	<link rel="shortcut icon" type="image/x-icon" href="Images\music player logo.png">
+	<!-- viewport meta tag for responsive design -->
+	<meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
+	<!-- CDN of font awesome for icon -->
+	<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.5.0/css/all.css" integrity="sha384-B4dIYHKNBt8Bc12p+WXckhzcICo0wtJAoU8YZTY5qE0Id1GSseTk6S+L3BlXeVIU" crossorigin="anonymous">
+	<!-- CDN of animate.css for animation -->
+	<link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+  />
+	<!-- CSS file -->
+	<link rel="stylesheet" type="text/css" href="Music-player.css">
+</head>
+
+<body>
+
+	<header>
+		<div id="header-container">
+
+			<div id="left-part">
+				<div id="music-logo-container">
+					<div id="music-logo" class="common-box-shadow">
+						<img src="Images/ninja-studio.jpeg" alt="LOGO">
+					</div>
+					<div id="music-name">
+						 Ninja Player
+					</div>
+				</div>
+				<div id="fovourite-container"> <p> Favourite </p> </div>
+			</div>
+
+			<div id="right-part">
+				<div id="search-container">
+					<form>
+						<div>
+							<input type="text" name="search" id="search" placeholder="Search...">
+							<button type="submit"> <i class="fas fa-search"></i> </button>
+						</div>
+					</form>
+				</div>
+				<div id="bell-icon-container">
+					<i class="fas fa-bell"></i>
+				</div>
+				<div id="dp-container">
+					<img class="common-box-shadow" src="Images/dpimg.jpg" alt="DP">
+				</div>
+			</div>
+
+		</div>
+		<div id="bar">
+			<a href="#aside"><i class="fas fa-bars"></i></a>
+		</div>
+	</header>
+
+	<div id="content">
+		<main>
+			<section id="top">
+				<div>
+					<img src="Images/Trending Today.jpg" alt="image">
+				</div>
+				<div>
+					<img src="Images/jubinnautial.jpg" alt="image">
+				</div>
+				<div>
+					<img src="Images/hindi-romentic.jpg" alt="image">
+				</div>
+			</section>
+
+              <!--**************************************** Recently played**************************************************************** -->
+			<section id="recently-playede">
+				<div>
+					<h1>Recently Played</h1>
+				</div>
+				<div class ="section-container">
+					<div class="background-color-on-hovering">
+						<div class="song-container">
+							<div class="song-image">
+								<img src="Images/doctor.jpeg" alt="song-image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="song-name">
+								<h3>Doctor</h3>
+								<p class="grey-color">June 2020</p>
+							</div>
+						</div>
+						<div class="time-container">
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+								<div class="more-option left-align animate__animated animate__zoomIn">
+									<!-- <div class="right-align"><a href=""> <span>X</span> </a> <hr></div> -->
+								
+									<ul type="none">
+										<li> <i class="fas fa-play"></i> Play Now</li>
+										<li> <i class="fas fa-plus"></i> Add To Queue</li>
+										<li> <i class="fas fa-heart"></i> Add To Favourites</li>
+										<li> <i class="fas fa-info-circle"></i> Get Info</li>
+									</ul>
+								</div>
+							</div>
+							<p class="grey-color">4:35</p>
+						</div>
+						
+					</div>
+					<div class="background-color-on-hovering">
+						<div class="song-container">
+							<div class="song-image">
+								<img src="Images/PB X1.jpeg" alt="song-image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="song-name">
+								<h3>PB X 1</h3>
+								<p class="grey-color">NOV 2021</p>
+							</div>
+						</div>
+						<div class="time-container">
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+								<div class="more-option left-align animate__animated animate__zoomIn">
+									<!-- <div class="right-align"><a href=""> <span>X</span> </a> <hr></div> -->
+								
+									<ul type="none">
+										<li> <i class="fas fa-play"></i> Play Now</li>
+										<li> <i class="fas fa-plus"></i> Add To Queue</li>
+										<li> <i class="fas fa-heart"></i> Add To Favourites</li>
+										<li> <i class="fas fa-info-circle"></i> Get Info</li>
+									</ul>
+								</div>
+							</div>
+							<p class="grey-color">4:35</p>
+						</div>
+					</div>
+					<div class="background-color-on-hovering">
+						<div class="song-container">
+							<div class="song-image">
+								<img src="Images/sidhu mushup.jpeg">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="song-name">
+								<h3>Sidhu Musseala Mashup</h3>
+								<p class="grey-color">DEC 2021</p>
+							</div>
+						</div>
+						<div class="time-container">
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+								<div class="more-option left-align animate__animated animate__zoomIn">
+									<!-- <div class="right-align"><a href=""> <span>X</span> </a> <hr></div> -->
+								
+									<ul type="none">
+										<li> <i class="fas fa-play"></i> Play Now</li>
+										<li> <i class="fas fa-plus"></i> Add To Queue</li>
+										<li> <i class="fas fa-heart"></i> Add To Favourites</li>
+										<li> <i class="fas fa-info-circle"></i> Get Info</li>
+									</ul>
+								</div>
+							</div>
+							<p class="grey-color">4:35</p>
+						</div>
+					</div>
+					
+					<div class="background-color-on-hovering">
+						<div class="song-container">
+							<div class="song-image">
+								<img src="Images/Amli.jpg" alt="song-image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="song-name">
+								<h3>Amli Anthem</h3>
+								<p class="grey-color">Feb 2023</p>
+							</div>
+						</div>
+						<div class="time-container">
+							<div>
+								<i class="fas fa-ellipsis-h"></i>
+								<div class="more-option left-align animate__animated animate__zoomIn">
+									<!-- <div class="right-align"><a href=""> <span>X</span> </a> <hr></div> -->
+								
+									<ul type="none">
+										<li> <i class="fas fa-play"></i> Play Now</li>
+										<li> <i class="fas fa-plus"></i> Add To Queue</li>
+										<li> <i class="fas fa-heart"></i> Add To Favourites</li>
+										<li> <i class="fas fa-info-circle"></i> Get Info</li>
+									</ul>
+								</div>
+							</div>
+							<p class="grey-color">4:35</p>
+						</div>
+					</div>
+				</div>
+			</section>
+
+
+			<section id="popular-artist">
+				<div>
+					<h1> Popular Artist </h1>
+				</div>
+				<div class="common-container-of-main">
+					<div class="center-align">
+						<div class="image common-hovering-effect">
+							<img class="common-box-shadow" src="Images/karan.jpeg" alt="image of artist">
+							<a href="Linked screens\Popular Artist.html">
+								<div class="common-play-icon-on-hovering white-color">
+									<i class="fas fa-play"></i>
+								</div>
+							</a>
+						</div>
+						<span> <b>Karan Aujla</b></span>
+					</div>
+					<div class="center-align">
+						<div class="image common-hovering-effect">
+							<img class="common-box-shadow" src="Images/Sidhu-Moose-Wala-2.jpeg" alt="image of artist">
+							<a href="Linked screens\Popular Artist.html">
+								<div class="common-play-icon-on-hovering white-color">
+									<i class="fas fa-play"></i>
+								</div>
+							</a>
+						</div>
+						<span> <b>Sidhu Moose Wala</b></span>
+					</div>
+					<div class="center-align">
+						<div class="image common-hovering-effect">
+							<img class="common-box-shadow" src="Images\Neha-Kakkar-Singer-Wallpaper-18862.jpg" alt="image of artist">
+							<a href="Linked screens\Popular Artist.html">
+								<div class="common-play-icon-on-hovering white-color">
+									<i class="fas fa-play"></i>
+								</div>
+							</a>
+						</div>
+						<span> <b>Neha Kakkar</b></span>
+					</div>
+					<div class="center-align">
+						<div class="image common-hovering-effect">
+							<img class="common-box-shadow" src="Images/Yo_Yo_Honey_Singh_002_20221216102650_500x500.jpg" alt="image of artist">
+							<a href="Linked screens\Popular Artist.html">
+								<div class="common-play-icon-on-hovering white-color">
+									<i class="fas fa-play"></i>
+								</div>
+							</a>
+						</div>
+						<span> <b>Yo Yo Honey Singh</b></span>
+					</div>
+					<div class="center-align">
+						<div class="image common-hovering-effect">
+							<img class="common-box-shadow" src="Images/Atif_Aslam_500x500.jpg" alt="image of artist">
+							<a href="Linked screens\Popular Artist.html">
+								<div class="common-play-icon-on-hovering white-color">
+									<i class="fas fa-play"></i>
+								</div>
+							</a>
+						</div>
+						<span> <b>Atif Aslam</b></span>
+					</div>
+					<div class="center-align">
+						<div class="image common-hovering-effect">
+							<img class="common-box-shadow" src="Images/Arijit_Singh_500x500.jpg" alt="image of artist">
+							<a href="Linked screens\Popular Artist.html">
+								<div class="common-play-icon-on-hovering white-color">
+									<i class="fas fa-play"></i>
+								</div>
+							</a>
+						</div>
+						<span> <b>Arjit Singh</b></span>
+					</div>
+				</div>
+			</section>
+
+
+			<section id="mood">
+				<div class="grey-color">
+					<span style="color:black">Swipe left to see more-->></span>
+				</div>
+				<div class="overflowing-container">
+					<div>
+						<img src="Images\partyimg.jpeg" alt="party image">
+						<p><b>Party</b></p>
+					</div>
+					<div>
+						<img src="Images\road trip.jpg" alt="road trip image">
+						<p><b>Road Trip</b></p>
+					</div>
+					<div>
+						<img src="Images\danceing.jpeg" alt="dance image">
+						<p><b>Dance</b></p>
+					</div>
+					<div>
+						<img src="Images\electronic.jpg" alt="electronic image">
+						<p><b>Electric</b></p>
+					</div>
+					<div>
+						<img src="Images\coolmusic.jpeg" alt="cool image">
+						<p><b>Cool</b></p>
+					</div>
+				</div>
+			</section>
+
+             <!--************************************** latest hindi ***********************************************************************-->
+
+			<section id="latest-hindi">
+				<div>
+					<h1> Latest Hindi </h1>
+				</div>
+				<div class="common-container-of-main">
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Kisi-Ka-Bhai-Kisi-Ki-Jaan-Hindi-2023-20230212115049-500x500.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Kisi Ka Bhai Kisi Ki Jaan</b></span> <br>
+						<span class="grey-color">Feb 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/TuJhoothiMainMakkaar_20230210111410.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i> 
+							</div>
+						</div>
+						<span> <b>Tu Jhoothi Main Makkaar</b></span> <br>
+						<span class="grey-color">Feb 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Shehzada_20230214112100.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Shehzada</b></span> <br>
+						<span class="grey-color">Feb 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Selfiee_20230210100858.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Selfiee</b></span> <br>
+						<span class="grey-color">Fab 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Pathaan-Hindi-2022-20221222104158-500x500.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Pathaan</b></span> <br>
+						<span class="grey-color">Jan 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Mission-Majnu-Hindi-2023-20230123150531-500x500.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Mission Majnu</b></span> <br>
+						<span class="grey-color">Feb 2023</span>
+					</div>
+				</div>
+			</section>
+
+			<!-- **************************************latest english *********************************************************************-->
+
+
+						<section id="latest-panjabi">
+				<div>
+					<h1> Latest Panjabi </h1>
+				</div>
+				<div class="common-container-of-main">
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Kali-Jotta-Punjabi-2023-20230127111337-500x500.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Kali Jotta</b></span> <br>
+						<span class="grey-color">Feb 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Tu-Te-Sharab-Punjabi-2023-20230207162049-500x500.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Tu Te Sarab</b></span> <br>
+						<span class="grey-color">Feb 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/You-Know-Punjabi-2023-20230207132004-500x500.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>You Know</b></span> <br>
+						<span class="grey-color">Jan 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Alone-Punjabi-2023-20230203190748-500x500.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Alone</b></span> <br>
+						<span class="grey-color">Feb 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Mallo-Malli-Punjabi-2023-20230209224104-500x500.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Mallo Mali</b></span> <br>
+						<span class="grey-color">Feb 2023</span>
+					</div>
+					<div>
+						<div class="image common-hovering-effect">
+							<img src="Images/Retro-Punjabi-2023-20230121152049-500x500.jpg" alt="image of artist">
+							<div class="common-play-icon-on-hovering">
+								<i class="fas fa-play"></i>
+							</div>
+						</div>
+						<span> <b>Retro</b></span> <br>
+						<span class="grey-color">Feb 2023</span>
+					</div>
+				</div>
+			</section>
+
+		</main>
+
+		<!--******************************************** aside section *******************************************************************-->
+
+		<aside id="aside" class="animate__animated animate__zoomIn">
+			<div id="playlist-header">
+				<div id="queue">
+					<h1> Queue </h1>
+				</div>
+				<div id="playlist-option">
+					<select>
+						<option selected> Queue </option>
+						<option> Playlists </option>
+						<option> Favourites </option>
+					</select>
+				</div>
+				<div id="close-tab">
+					<a href=""><span> X </span></a>
+				</div>
+			</div>
+
+			<div id="playlist-container">
+				<ol>
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Sidhu-Moose-Wala-2.jpeg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Last Ride</b> <br>
+								<span class="grey-color"> Sidhu Moose Wala</span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Kali-Jotta-Satinder-Sartaaj.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Rutba</b> <br>
+								<span class="grey-color"> Satinder Sartaj </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Tu-Te-Sharab-Punjabi-2023-20230207162049-500x500.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Tu Te Sarab</b> <br>
+								<span class="grey-color"> Jordan Sandhu </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/chan sitare.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Chann Sitare</b> <br>
+								<span class="grey-color"> Ammy Virk </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Rubicon-Drill-1-laddi chahal.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Rubicon Drill</b> <br>
+								<span class="grey-color"> Laddi Chahal </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Amli.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Amli Antham</b> <br>
+								<span class="grey-color"> Raka </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Alone-Punjabi-2023-20230203190748-500x500.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Alone</b> <br>
+								<span class="grey-color"> Guru Randhava </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Four-You-Punjabi-2023-20230130150304-500x500.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Four You</b> <br>
+								<span class="grey-color"> Karan Aujala </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/suit-kaka.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Suit</b> <br>
+								<span class="grey-color"> Kaka </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Kali-Jotta-Satinder-Sartaaj.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Naach</b> <br>
+								<span class="grey-color"> Satinder Sartaj </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/spain.jpg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>spain</b> <br>
+								<span class="grey-color"> Jassa Dhillon </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Sidhu-Moose-Wala-2.jpeg" alt="image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Insane </b> <br>
+								<span class="grey-color"> Sidhu Moose Waala </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Retro-Punjabi-2023-20230121152049-500x500.jpg" alt="song-image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Retro</b> <br>
+								<span class="grey-color"> Ranjit Bawa </span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+					<li>
+					<div class="playlist background-color-on-hovering">
+						<div class="playlist-song-container">
+							<div class="playlist-image">
+								<img src="Images/Mohali-Block-Punjabi-2023-20230204201835-500x500.jpg" alt="song-image">
+								<div class="common-play-icon-on-hovering">
+									<i class="fas fa-play"></i>
+								</div>
+							</div>
+							<div class="playlist-name">
+								<b>Mohali Block</b> <br>
+								<span class="grey-color">Sharry Maan</span>
+							</div>
+						</div>
+						<div class="playlist-add-to">
+							<i class="far fa-heart"></i>
+							<i class="fas fa-plus"></i>
+						</div>
+					</div>
+					</li>
+
+				</ol>
+			</div>
+			
+		</aside>
+	</div>
+
+	<footer id="footer">
+		<div class="playlist">
+			<div class="playlist-song-container">
+				<div class="playlist-image">
+					<img src="Images/Amli.jpg" alt="song-image">
+					<div class="common-play-icon-on-hovering">
+						<i class="far fa-pause-circle"></i>
+					</div>
+				</div>
+				<div class="playlist-name">.
+					<b>Amli Anthem</b> <br>
+					Raka
+				</div>
+			</div>
+			<div class="playlist-add-to">
+				<i class="far fa-heart"></i>
+				<i class="fas fa-plus"></i>
+			</div>
+		</div>
+
+		<div id="audio">
+			<audio controls autoplay>
+				<source src="Song/Amli_Anthem-Raka-(Djjaani.com).mp3" type="audio/mp3">
+					Your browser does not support the audio element.
+			</audio>
+		</div>
+			
+		<div id="volume">
+			<input type="range">
+			<i class="fas fa-expand"></i>
+		</div>
+	</footer>
+
+</body>
+</html>
